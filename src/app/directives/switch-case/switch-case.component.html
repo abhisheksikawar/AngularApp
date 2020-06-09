@@ -1,0 +1,32 @@
+<p>switch-case works!</p>
+
+Experience:<input type="text" placeholder="one two three ..."
+[(ngModel)]="experience">
+{{experience}}
+
+<div [ngSwitch]="experience">
+<div *ngSwitchCase="'one'">
+<h3>One year Experience
+</h3>
+</div>
+
+<div *ngSwitchCase="'two'">
+    <h3>Two year Experience
+    </h3>
+    </div>
+
+    <div *ngSwitchCase="'three'">
+        <h3>Three year Experience
+        </h3>
+        </div>
+
+        <div *ngSwitchCase="'four'">
+            <h3>Four year Experience
+            </h3>
+            </div>
+
+            <div *ngSwitchDefault>
+            <h3>welcome</h3>
+        </div>
+
+</div>

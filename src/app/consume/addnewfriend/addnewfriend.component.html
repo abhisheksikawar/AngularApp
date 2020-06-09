@@ -1,0 +1,10 @@
+<p>addnewfriend works!</p>
+<fieldset >
+    <legend>Add New</legend>
+    <form #newFriendForm="ngForm" (ngSubmit)="captureNewFriend(newFriendForm)">
+        Name: <input type="text" name="name" [(ngModel)]="name" required><br>
+        Location: <input type="text" name="location" [(ngModel)]="location" required><br>
+        Likes: <input type="text" name="likes" [(ngModel)]="likes" readonly><br>
+        <button type="submit" [disabled]="newFriendForm.invalid">Add</button>
+    </form>
+</fieldset>

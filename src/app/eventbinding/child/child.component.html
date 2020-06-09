@@ -1,0 +1,9 @@
+<p>child works!</p>
+ Name (in child component): <input type="text" [(ngModel)]='name'><br> 
+Name (value inherited from parent component) => {{ name }}
+ <br><button (click)="sendToParent()">Send To Parent</button> 
+<hr>
+Grand Child Component ->
+<br>
+<app-grandchild [name]="name" (broadcastNameToChild)="eventReceivedFromGrandChild($event)"></app-grandchild>
+<!-- <app-grandchild [name]="name" ></app-grandchild> -->

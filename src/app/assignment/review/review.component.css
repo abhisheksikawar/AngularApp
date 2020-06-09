@@ -1,0 +1,15 @@
+.rc{
+    background-color: rgb(178, 197, 197);
+    height: 300px;
+    width: 100%;
+}
+.title{
+    background-color: rgba(255, 0, 0, 0.932);
+    width: 100%;
+    height:60px;
+}
+.detail{
+    background-color: royalblue;
+    width: 100%;
+    height:260px;
+}

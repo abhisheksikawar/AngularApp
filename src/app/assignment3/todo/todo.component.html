@@ -1,0 +1,25 @@
+<p>todo works!</p>
+Enter todo:<input type="text" [(ngModel)]="todo" autofocus  (keyup.enter)="focusableSubmit.click()">&nbsp;&nbsp;
+<button (click)="addtodo()"#focusableSubmit>Add</button>
+<br>
+<br>
+<div>
+<div class="pending">
+    <h3>Pending</h3>
+    <table>
+        <tr *ngFor="let i of todoArray; let c =index">
+            <td>{{i}}</td>
+            <td><button (click)="todoCompleted(c)">Completed</button></td>
+        </tr>
+    </table>
+    </div>
+<div class="completed">
+    <h3>completed</h3>
+    <table>
+        <tr *ngFor="let i of completed; let d =index">
+            <td>{{i}}</td>
+            <td><button (click)="tododelete(d)">delete</button></td>
+        </tr>
+    </table>
+    </div>
+</div>

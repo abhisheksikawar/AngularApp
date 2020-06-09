@@ -1,0 +1,29 @@
+<p>for works!</p>
+
+{{friends}}
+<br>
+<br>
+<table border=1>
+    <thead>
+        <tr>
+            <th>Counter</th>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Score</th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let f of friends; let c=index">
+    <td>{{c}}</td>
+    <td>{{f.id}}</td>
+    <td>{{f.name}}</td>
+    <td>{{f.score}}</td>
+    <td>
+    <button (click)="changeScore(c)">click to score</button>
+    </td>
+    </tr>
+</table>
+
+<ol>
+    <li *ngFor="let s of salary">{{s}}</li>
+</ol>

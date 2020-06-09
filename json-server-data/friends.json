@@ -1,0 +1,82 @@
+{
+  "all": [
+    {
+      "name": "abhishek",
+      "location": "afaf",
+      "likes": 14,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "CAS",
+      "location": "Chennai",
+      "likes": 25
+    },
+    {
+      "id": 3,
+      "name": "BNP",
+      "location": "Chennai",
+      "likes": 13
+    },
+    {
+      "id": 4,
+      "name": "MLANN",
+      "location": "Chennai",
+      "likes": 27
+    },
+    {
+      "name": "foodoo",
+      "location": "delhi",
+      "likes": 99,
+      "id": 5
+    },
+    {
+      "name": "abhishek",
+      "location": "agra",
+      "id": 6,
+      "likes": 5
+    },
+    {
+      "name": "yoyo",
+      "location": "punjab",
+      "id": 7,
+      "likes": 6
+    },
+    {
+      "name": "funshuk",
+      "location": "himachal",
+      "id": 8,
+      "likes": 9
+    },
+    {
+      "name": "abhishek",
+      "location": "delhi",
+      "likes": 8,
+      "id": 9
+    },
+    {
+      "name": "sadhasjk",
+      "location": "sajkfas",
+      "likes": 20,
+      "id": 10
+    },
+    {
+      "name": "waras",
+      "location": "china",
+      "likes": 9,
+      "id": 11
+    },
+    {
+      "name": "samosa",
+      "location": "singh",
+      "likes": 5,
+      "id": 12
+    },
+    {
+      "name": "qatars",
+      "location": "qatar",
+      "likes": 3,
+      "id": 13
+    }
+  ]
+}

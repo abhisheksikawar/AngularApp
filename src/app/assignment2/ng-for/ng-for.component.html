@@ -1,0 +1,24 @@
+<p>for works!</p>
+
+<br>
+<table border=2>
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>UserName</th>
+            <th>Latitude</th>
+            <th>Longitude</th>
+            <th>Company Name</th>
+        </tr>
+    </thead>
+    <tr *ngFor="let u of user">
+        <td>{{u.id}}</td>
+        <td>{{u.name}}</td>
+        <td>{{u.username}}</td>
+        <td>{{u.address.geo.lat}}</td>
+        <td>{{u.address.geo.lng}}</td>
+        <td>{{u.company.name}}</td>
+        
+    </tr>
+</table>

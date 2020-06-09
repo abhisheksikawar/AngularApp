@@ -1,0 +1,17 @@
+.pending{
+    background-color: yellowgreen;
+    width: 400px;
+    height: 400px;
+    float:left;
+}
+
+h3{
+    text-align: center;
+}
+.completed{
+    background-color:red;
+    width: 400px;
+    height: 400px;
+    float: right;
+    margin-right: 20%;
+}

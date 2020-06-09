@@ -1,0 +1,25 @@
+<p>templateform works!</p>
+<div>
+    Template Driven Form!!!!
+</div>
+
+
+<form #personalform="ngForm"  (ngSubmit)="saveFormValue(personalform)">
+    First Name:
+    <input type="text" name="firstname" [(ngModel)]="fname" required #pffn> {{fname}}
+    <br>
+    Last Name:
+    <input type="text" name="lastname" [(ngModel)]="lname" > {{lname}}
+    <br>
+    Programming:
+    <select name="programming" [(ngModel)]="choice" required>
+        <option value="java">Java</option>
+        <option value="python">Python</option>
+        <option value="c++">C++</option>
+    </select>
+    <br>
+    <br>
+
+    <button type="submit" [disabled]="personalform.invalid">Submit</button>
+
+</form><p>templateform works!</p>

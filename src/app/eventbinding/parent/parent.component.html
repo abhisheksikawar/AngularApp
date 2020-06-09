@@ -1,0 +1,8 @@
+<p>parent works!</p>
+Name (in parent component): <input type="text" [(ngModel)]='name'><br>
+Parent Component -> Parent -> Name: {{name}}
+<br><br>
+<hr>
+Child Component ->
+<br>
+ <app-child [name]="name" (broadcastToParent)="eventReceivedFromChild($event)" ></app-child> 

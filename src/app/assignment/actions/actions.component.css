@@ -1,0 +1,16 @@
+.author{
+    background-color: seagreen;
+    width: 25%;
+    height:40px;
+    margin-top:20px;
+    float: left;
+    margin-left: 10px;
+}
+.engagement{
+    background-color: seagreen;
+    width:25%;
+    height:40px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+}

@@ -1,0 +1,48 @@
+<div [ngStyle]="{backgroundColor:getbgcolor(),
+border:getcolor()}">
+<h1>hello</h1>
+
+</div>
+
+<br>
+<div [ngStyle]="{backgroundColor:getDynamicBG(),
+color:getFontColor()} " class="message">
+    <h1>This is the example of ngStyle directive </h1>
+
+</div>
+<br>
+<div>
+<div class="bg-color">
+    <h1>background color:{{bgcolor}}</h1>
+<div>
+    red:<input type="range" min=0 max=255 [(ngModel)]="red">
+</div>
+<br>
+<div>
+    green:<input type="range" min=0 max=255 [(ngModel)]="green">
+</div>
+<br>
+<div>
+    blue:<input type="range" min=0 max=255 [(ngModel)]="blue">
+</div>
+
+</div>
+
+<div class="font-color">
+    <h1>font color:{{fcolor}}</h1>
+<div>
+    red:<input type="range" min=0 max=255 [(ngModel)]="fred">
+</div>
+<br>
+<div>
+    green:<input type="range" min=0 max=255 [(ngModel)]="fgreen">
+</div>
+<br>
+<div>
+    blue:<input type="range" min=0 max=255 [(ngModel)]="fblue">
+</div>
+</div>
+</div>
+<br>
+
+

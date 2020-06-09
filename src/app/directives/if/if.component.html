@@ -1,0 +1,13 @@
+<p>if works!</p>
+<button (click)="toggle()">Show Name</button>
+<div *ngIf="display">
+    <h1>abhishek </h1>
+</div>
+<br>
+<button (click)="ifelse()">click me</button>
+<div *ngIf="change ; else notchange">
+    <h3>If is running</h3> </div>
+
+    <ng-template #notchange>
+        <h3>else is running</h3>
+    </ng-template>

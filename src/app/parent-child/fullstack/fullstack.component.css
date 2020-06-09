@@ -1,0 +1,38 @@
+.fullstack{
+    background-color:thistle;
+    height: 250px;
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 100px;
+    position: relative;
+}
+.frontend{
+    background-color: tomato;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    float: left;
+    
+}
+.middleware{
+    background-color: teal;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 300px;
+}
+.testing{
+    background-color:chocolate;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    margin-left: 600px;
+
+}
+.devops{
+    background-color:cornflowerblue;
+    height: 200px;
+    width: 200px;
+    position:absolute;
+    margin-left: 900px;
+}

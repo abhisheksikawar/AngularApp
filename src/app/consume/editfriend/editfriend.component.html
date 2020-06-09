@@ -1,0 +1,14 @@
+<p>editfriend works!</p>
+
+<h3>Active Id:  {{ activeId }}</h3>
+
+<fieldset >
+    <legend>Edit</legend>
+    <form #editFriendForm="ngForm" (ngSubmit)="editSelectedFriend(editFriendForm)">
+        Id: {{activeId}} <br>
+        Name: <input type="text" name="name" [(ngModel)]="name" required>{{name}}<br>
+        Location: <input type="text" name="location" [(ngModel)]="location" required>{{location}}<br>
+        Likes: <input type="text" name="likes" [(ngModel)]="likes" readonly><br>
+        <button type="submit" [disabled]="editFriendForm.invalid">Edit</button>
+    </form>
+</fieldset>
